@@ -6,7 +6,7 @@
 ```
   
 ## Pre-Activity Homework
-Watch <a href="https://www.youtube.com/watch?v=JPT3bFIwJYA" no-referrer no-opener>What is React?</a> and <a href="https://www.youtube.com/watch?v=S4mPsoZ7sG4" no-referrer no-opener>What is SASS?</a>.
+Watch <a href="https://www.youtube.com/watch?v=JPT3bFIwJYA" no-referrer no-opener>What is React?</a> and <a href="https://www.youtube.com/watch?v=Lg-pk_2_kCk" no-referrer no-opener>What is SASS?</a>.
 
 ## Activity Instructions
     1) Click `Show Live` to see the current results.
