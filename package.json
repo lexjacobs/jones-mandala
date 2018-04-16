@@ -1,7 +1,7 @@
 {
-  "name": "my-glitch-app",
+  "name": "react-webpack-babel-sass",
   "version": "0.0.1",
-  "description": "What am I about?",
+  "description": "A simple example following a modern workflow.",
   "scripts": {
     "build": "webpack -p",
     "start": "node server.js"
@@ -15,7 +15,7 @@
     "node": "9.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/my-glitch-app"
+    "url": "https://glitch.com/edit/#!/react-webpack-babel-sass"
   },
   "license": "MIT",
   "keywords": [
