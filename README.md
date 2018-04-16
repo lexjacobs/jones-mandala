@@ -5,6 +5,9 @@
   React.js, Webpack, Babel, SASS
 ```
   
+## Pre-Activity Homework
+Watch <a href="https://www.youtube.com/watch?v=JPT3bFIwJYA" no-referrer no-opener>What is React?</a> and <a href="https://www.youtube.com/watch?v=JPT3bFIwJYA" no-referrer no-opener>What is SASS?</a> .
+
 ## Instructions
     1) Click `Show Live` to see the current results.
     2) Make a custom change to `HelloWorld.jsx`. Don't over React! ;)
