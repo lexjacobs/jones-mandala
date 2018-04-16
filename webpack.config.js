@@ -1,13 +1,9 @@
 // This library allows us to combine paths easily
 const path = require('path');
 module.exports = {
-   devServer: {
-     contentBase: './src',
-     publicPath: '/output'
-   },
    entry: path.resolve(__dirname, 'src', 'index.jsx'),
    output: {
-      path: path.resolve(__dirname, 'output'),
+      path: path.resolve(__dirname, 'src/output'),
       filename: 'bundle.js'
    },
    resolve: {
