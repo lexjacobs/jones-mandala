@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "What am I about?",
   "scripts": {
+    "build": "webpack -p",
     "start": "node server.js"
   },
   "dependencies": {
@@ -30,6 +31,7 @@
     "node-sass": "^4.8.3",
     "sass-loader": "^7.0.1",
     "style-loader": "^0.20.3",
-    "webpack": "^4.5.0"
+    "webpack": "^4.5.0",
+    "webpack-dev-server": "^3.1.3"
   }
 }
