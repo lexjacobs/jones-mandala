@@ -2637,6 +2637,9 @@ packages:
     engines:
       node: '>=0.8.0'
     optional: true
+    os:
+      - darwin
+    requiresBuild: true
     resolution:
       integrity: sha512-WIr7iDkdmdbxu/Gh6eKEZJL6KPE74/5MEsf2whTOFNxbIoIixogroLdKYqB6FDav4Wavh/lZdzzd3b2KxIXC5Q==
   /fstream/1.0.11:
@@ -4405,6 +4408,7 @@ packages:
     dev: true
     engines:
       node: '>=0.10.0'
+    requiresBuild: true
     resolution:
       integrity: sha512-tfFWhUsCk/Y19zarDcPo5xpj+IW3qCfOjVdHtYeG6S1CKbQOh1zqylnQK6cV3z9k80yxAnFX9Y+a9+XysDhhfg==
   /nomnom/1.8.1:
@@ -7022,7 +7026,7 @@ packages:
     resolution:
       integrity: sha512-Sgvz3MAkOpEIobcpW3rjEl6bOTNnl8SkibP9z7hYKfIGIlw0QDC2k0MAeXvyE2pLqc2M0Duql+6R7/W9GrJojg==
 registry: 'https://registry.npmjs.org/'
-shrinkwrapMinorVersion: 4
+shrinkwrapMinorVersion: 5
 shrinkwrapVersion: 3
 specifiers:
   babel-core: ^6.26.0
