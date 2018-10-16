@@ -43,6 +43,7 @@ packages:
     dev: true
     engines:
       node: '>=0.4.0'
+    hasBin: true
     resolution:
       integrity: sha512-jd5MkIUlbbmb07nXH0DT3y7rDVtkzDi4XZOUVWAer8ajmF/DTSSbl5oNFyDOl/OXA33Bl79+ypHhl2pN20VeOQ==
   /ajv-keywords/3.1.0/ajv@6.4.0:
@@ -308,6 +309,7 @@ packages:
     dev: true
     engines:
       node: '>= 0.4.0'
+    hasBin: true
     resolution:
       integrity: sha512-SuiKH8vbsOyCALjA/+EINmt/Kdl+TQPrtFgW7XZZcwtryFu9e5kQoX3bjCW6mIvGH1fbeAZZuvwGR5IlBRznGw==
   /autoprefixer/6.7.7:
@@ -986,12 +988,14 @@ packages:
       integrity: sha1-o7Bz+Uq0nrb6Vc1lInozQ4BjJJc=
   /babylon/6.18.0:
     dev: true
+    hasBin: true
     resolution:
       integrity: sha512-q/UEjfGJ2Cm3oKV71DJz9d25TPnq5rhBVL2Q4fA5wcC3jcrdn7+SssEybFIxwAvvP+YCsCYNKughoF33GxgycQ==
   /babylon/7.0.0-beta.44:
     dev: true
     engines:
       node: '>=4.2.0'
+    hasBin: true
     resolution:
       integrity: sha512-5Hlm13BJVAioCHpImtFqNOF2H3ieTOHd0fmFGMxOJ9jgeFqeAwsv3u5P5cR7CSeFrkgHsT19DgFJkHV0/Mcd8g==
   /balanced-match/0.4.2:
@@ -1195,6 +1199,7 @@ packages:
       caniuse-db: 1.0.30000830
       electron-to-chromium: 1.3.42
     dev: true
+    hasBin: true
     resolution:
       integrity: sha1-C9dnBCWL6CmyOYu1Dkti0aFmsLk=
   /buffer-from/1.0.0:
@@ -1833,6 +1838,7 @@ packages:
       integrity: sha1-5piEdK6MlTR3v15+/s/OzNnPTIY=
   /cssesc/0.1.0:
     dev: true
+    hasBin: true
     resolution:
       integrity: sha1-yBSQPkViM3GgR3tAEJqq++6t27Q=
   /cssnano/3.10.0:
@@ -1879,6 +1885,7 @@ packages:
     dev: true
     engines:
       node: '>=0.10.0'
+    hasBin: true
     resolution:
       integrity: sha1-3dUsWHAz9J6Utx/FVWnyUuj/X4U=
   /currently-unhandled/0.4.1:
@@ -2148,12 +2155,14 @@ packages:
     dev: true
     engines:
       node: '>=4'
+    hasBin: true
     resolution:
       integrity: sha512-5rfRs+m+6pwoKRCFqpsA5+qsLngFms1aWPrxfKbrObCzQaPc3M3yPloZx+BL9UE3dK58cxw36XVQbFRSCCfGSQ==
   /errno/0.1.7:
     dependencies:
       prr: 1.0.1
     dev: true
+    hasBin: true
     resolution:
       integrity: sha512-MfrRBDWzIWifgq6tJj60gkAwtLNb6sQPlcFrSOflcP1aFmmruKQ2wRnze/8V6kgyz7H3FF8Npzv78mZ7XLLflg==
   /error-ex/1.3.1:
@@ -2192,12 +2201,14 @@ packages:
     dev: true
     engines:
       node: '>=0.10.0'
+    hasBin: true
     resolution:
       integrity: sha1-luO3DVd59q1JzQMmc9HDEnZ7pYE=
   /esprima/4.0.0:
     dev: true
     engines:
       node: '>=4'
+    hasBin: true
     resolution:
       integrity: sha512-oftTcaMu/EGrEIu904mWteKIv8vMuOgGYo7EhVJJN00R/EED9DCua/xxHRdYnKtcECzVg7xOWhflvJMnqcFZjw==
   /esrecurse/4.2.1:
@@ -2738,6 +2749,7 @@ packages:
       glob: 7.1.2
       yargs: 1.2.6
     dev: true
+    hasBin: true
     resolution:
       integrity: sha1-iRPd+17hrHgSZWJBsD1SF8ZLAqs=
   /glob-base/0.3.0:
@@ -2905,6 +2917,7 @@ packages:
     dev: true
     engines:
       node: '>=0.10'
+    hasBin: true
     resolution:
       integrity: sha1-zcvAgYgmWtEZtqWnyKtw7s+10n0=
   /har-validator/5.0.3:
@@ -3180,6 +3193,7 @@ packages:
     dev: true
     engines:
       node: '>=4'
+    hasBin: true
     resolution:
       integrity: sha512-vAaZHieK9qjGo58agRBg+bhHX3hoTZU/Oa3GESWLz7t1U62fk63aHuDJJEteXoDeTCcPmUT+z38gkHPZkkmpmQ==
   /imurmurhash/0.1.4:
@@ -3190,6 +3204,7 @@ packages:
       integrity: sha1-khi5srkoojixPcT7a21XbyMUU+o=
   /in-publish/2.0.0:
     dev: true
+    hasBin: true
     resolution:
       integrity: sha1-4g/146KvwmkDILbcVSaCqcf631E=
   /indent-string/2.1.0:
@@ -3665,6 +3680,7 @@ packages:
       argparse: 1.0.10
       esprima: 2.7.3
     dev: true
+    hasBin: true
     resolution:
       integrity: sha1-XJZ93YN6m/3KXy3oQlOr6KHAO4A=
   /jsbn/0.1.1:
@@ -3692,6 +3708,7 @@ packages:
     dev: true
     engines:
       node: '>=4'
+    hasBin: true
     resolution:
       integrity: sha512-iOX6If+hsw0q99V3n31t4f5VlD1TQZddH08xbT65ZqA7T4Vkx68emrDZMUOLVvCEAJ6NpAk7DECe3fjC/t52AQ==
   /jscodeshift/0.5.0:
@@ -3714,14 +3731,17 @@ packages:
     dev: true
     engines:
       node: '>=4'
+    hasBin: true
     resolution:
       integrity: sha512-JAcQINNMFpdzzpKJN8k5xXjF3XDuckB1/48uScSzcnNyK199iWEc9AxKL9OoX5144M2w5zEx9Qs4/E/eBZZUlw==
   /jsesc/0.5.0:
     dev: true
+    hasBin: true
     resolution:
       integrity: sha1-597mbjXW/Bb3EP6R1c9p9w8IkR0=
   /jsesc/1.3.0:
     dev: true
+    hasBin: true
     resolution:
       integrity: sha1-RsP+yMGJKxKwgz25vHYiF226s0s=
   /json-buffer/3.0.0:
@@ -3746,6 +3766,7 @@ packages:
       integrity: sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=
   /json5/0.5.1:
     dev: true
+    hasBin: true
     resolution:
       integrity: sha1-Hq3nrMASA0rYTiOWdn6tn6VJWCE=
   /jsonpointer/4.0.1:
@@ -3971,6 +3992,7 @@ packages:
   /loose-envify/1.3.1:
     dependencies:
       js-tokens: 3.0.2
+    hasBin: true
     resolution:
       integrity: sha1-0aitM/qc4OcT1l/dCsi3SNR4yEg=
   /loud-rejection/1.6.0:
@@ -4160,6 +4182,7 @@ packages:
       bn.js: 4.11.8
       brorand: 1.1.0
     dev: true
+    hasBin: true
     resolution:
       integrity: sha512-115fLhvZVqWwHPbClyntxEVfVDfl9DLLTuJvq3g2O/Oxi8AiNouAHvDSzHS0viUJc+V5vm3eq91Xwqn9dp4jRA==
   /mime-db/1.33.0:
@@ -4176,6 +4199,7 @@ packages:
       integrity: sha512-lc/aahn+t4/SWV/qcmumYjymLsWfN3ELhpmVuUFjgsORruuZPVSwAQryq+HHGvO/SI2KVX26bx+En+zhM8g8hQ==
   /mime/1.4.1:
     dev: false
+    hasBin: true
     resolution:
       integrity: sha512-KI1+qOZu5DcW6wayYHSzR/tXKCDC5Om4s1z2QJjDULzLcmf3DvzS7oluY4HCTrc+9FiKmWUgeNLg7W3uIQvxtQ==
   /mimic-fn/1.2.0:
@@ -4255,6 +4279,7 @@ packages:
     dependencies:
       minimist: 0.0.8
     dev: true
+    hasBin: true
     resolution:
       integrity: sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
   /move-concurrently/1.0.1:
@@ -4354,6 +4379,7 @@ packages:
     dev: true
     engines:
       node: '>= 0.8.0'
+    hasBin: true
     resolution:
       integrity: sha1-m/vlRWIoYoSDjnUOrAUpWFP6HGA=
   /node-libs-browser/2.1.0:
@@ -4408,6 +4434,7 @@ packages:
     dev: true
     engines:
       node: '>=0.10.0'
+    hasBin: true
     requiresBuild: true
     resolution:
       integrity: sha512-tfFWhUsCk/Y19zarDcPo5xpj+IW3qCfOjVdHtYeG6S1CKbQOh1zqylnQK6cV3z9k80yxAnFX9Y+a9+XysDhhfg==
@@ -4423,6 +4450,7 @@ packages:
     dependencies:
       abbrev: 1.1.1
     dev: true
+    hasBin: true
     resolution:
       integrity: sha1-xkZdvwirzU2zWTF/eaxopkayj/k=
   /normalize-package-data/2.4.0:
@@ -5165,6 +5193,7 @@ packages:
     dev: true
     engines:
       node: '>=4'
+    hasBin: true
     resolution:
       integrity: sha512-Wz0SMncgaglBzDcohH3ZIAi4nVpzOIEweFzCOmgVEoRSeO72b4dcKGfgxoRGVMaFlh1r7dlVaJ+f3CIHfeH6xg==
   /pretty-bytes/4.0.2:
@@ -5554,6 +5583,7 @@ packages:
     dependencies:
       jsesc: 0.5.0
     dev: true
+    hasBin: true
     resolution:
       integrity: sha1-fuj4Tcb6eS0/0K4ijSS9lJ6tIFw=
   /remove-trailing-separator/1.1.0:
@@ -5723,12 +5753,14 @@ packages:
       integrity: sha512-TTlYpa+OL+vMMNG24xSlQGEJ3B/RzEfUlLct7b5G/ytav+wPrplCpVMFuwzXbkecJrb6IYo1iFb0S9v37754mg==
   /rimraf/2.2.8:
     dev: true
+    hasBin: true
     resolution:
       integrity: sha1-5Dm+Kq7jJzIZUnMPmaiSnk/FBYI=
   /rimraf/2.6.2:
     dependencies:
       glob: 7.1.2
     dev: true
+    hasBin: true
     resolution:
       integrity: sha512-lreewLK/BlghmxtfH36YYVg1i8IAce4TI7oao75I1g245+6BctqTVQiBP3YUJ9C6DQOXJmkYR9X9fCLtCOJc5w==
   /ripemd160/2.0.1:
@@ -5789,6 +5821,7 @@ packages:
       scss-tokenizer: 0.2.3
       yargs: 7.1.0
     dev: true
+    hasBin: true
     resolution:
       integrity: sha1-E/vWPNHK8JCLn9k0dq1DpR0eC0k=
   /sass-loader/7.0.1:
@@ -5835,10 +5868,12 @@ packages:
       integrity: sha1-jrBtualyMzOCTT9VMGQRSYR85dE=
   /semver/5.3.0:
     dev: true
+    hasBin: true
     resolution:
       integrity: sha1-myzl094C0XxgEq0yaqa00M9U+U8=
   /semver/5.5.0:
     dev: true
+    hasBin: true
     resolution:
       integrity: sha512-4SJ3dm0WAwWy/NVeioZh5AntkdJoWKxHxcmyP622fOkgHa4z3R0TdBJICINyaSDE6uNwVc8gZr+ZinwZAH4xIA==
   /send/0.16.2:
@@ -5924,6 +5959,7 @@ packages:
       inherits: 2.0.3
       safe-buffer: 5.1.1
     dev: true
+    hasBin: true
     resolution:
       integrity: sha512-QMEp5B7cftE7APOjk5Y6xgrbWu+WkLVQwk8JNjZ8nKRciZaByEW6MubieAiToS7+dwvrjGhH8jRXz3MVd0AYqQ==
   /shallow-clone/1.0.0:
@@ -5958,6 +5994,7 @@ packages:
     dev: true
     engines:
       node: '>=4'
+    hasBin: true
     resolution:
       integrity: sha512-YA/iYtZpzFe5HyWVGrb02FjPxc4EMCfpoU/Phg9fQoyMC72u9598OUBrsU8IrtwAKG0tO8IYaqbaLIw+k3IRGA==
   /signal-exit/3.0.2:
@@ -6132,6 +6169,7 @@ packages:
     dev: true
     engines:
       node: '>=0.10.0'
+    hasBin: true
     optionalDependencies:
       bcrypt-pbkdf: 1.0.1
       ecc-jsbn: 0.1.1
@@ -6251,6 +6289,7 @@ packages:
     dev: true
     engines:
       node: '>=0.8.0'
+    hasBin: true
     resolution:
       integrity: sha1-OeipjQRNFQZgq+SmgIrPcLt7yZE=
   /strip-ansi/3.0.1:
@@ -6304,6 +6343,7 @@ packages:
     dev: true
     engines:
       node: '>=0.10.0'
+    hasBin: true
     resolution:
       integrity: sha1-DHlipq3vp7vUrDZkYKY4VSrhoKI=
   /style-loader/0.20.3:
@@ -6349,6 +6389,7 @@ packages:
     dev: true
     engines:
       node: '>=0.10.0'
+    hasBin: true
     resolution:
       integrity: sha1-n1dyQTlSE1xv779Ar+ak+qiLS7U=
   /symbol-observable/0.2.4:
@@ -6536,6 +6577,7 @@ packages:
     dev: true
     engines:
       node: '>=0.8.0'
+    hasBin: true
     resolution:
       integrity: sha512-r+MU0rfv4L/0eeW3xZrd16t4NZfK8Ld4SWVglYBb7ez5uXFWHuVRs6xCTrf1yirs9a4j4Y27nn7SRfO6v67XsQ==
   /uglifyjs-webpack-plugin/1.2.4:
@@ -6688,6 +6730,7 @@ packages:
       integrity: sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
   /uuid/3.2.1:
     dev: true
+    hasBin: true
     resolution:
       integrity: sha512-jZnMwlb9Iku/O3smGWvZhauCf6cvvpKi4BKRiliS3cxnI+Gz9j5MEpTz2UFuXiKPJocb7gnsLHwiS05ige5BEA==
   /v8-compile-cache/1.1.2:
@@ -6810,6 +6853,7 @@ packages:
     dev: true
     engines:
       node: '>=6.11.5'
+    hasBin: true
     peerDependencies:
       webpack: ^4.0.0
     resolution:
@@ -6845,6 +6889,7 @@ packages:
     dev: true
     engines:
       node: '>=6.11.5'
+    hasBin: true
     resolution:
       integrity: sha512-6GrZsvQJnG7o7mjbfjp6s5CyMfdopjt1A/X8LcYwceis9ySjqBX6Lusso2wNZ06utHj2ZvfL6L3f7hfgVeJP6g==
   /whatwg-fetch/2.0.4:
@@ -6869,6 +6914,7 @@ packages:
     dependencies:
       isexe: 2.0.0
     dev: true
+    hasBin: true
     resolution:
       integrity: sha512-xcJpopdamTuY5duC/KnTTNBraPK54YwpenP4lzxU8H91GudWpFv38u0CKjclE1Wi2EH2EDz5LRcHcKbCIzqGyg==
   /wide-align/1.1.2:
@@ -7026,7 +7072,7 @@ packages:
     resolution:
       integrity: sha512-Sgvz3MAkOpEIobcpW3rjEl6bOTNnl8SkibP9z7hYKfIGIlw0QDC2k0MAeXvyE2pLqc2M0Duql+6R7/W9GrJojg==
 registry: 'https://registry.npmjs.org/'
-shrinkwrapMinorVersion: 6
+shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
 specifiers:
   babel-core: ^6.26.0
