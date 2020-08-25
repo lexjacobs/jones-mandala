@@ -5,7 +5,7 @@
   "scripts": {
     "build": "webpack -p",
     "start": "node server.js",
-    "dev": "webpack --mode= -w"
+    "dev": "webpack --mode=development -w"
   },
   "dependencies": {
     "react": "^16.3.1",
