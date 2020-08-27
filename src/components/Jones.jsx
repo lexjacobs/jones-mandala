@@ -1,4 +1,8 @@
 import React, { Component } from "react";
+import image from "./images";
+
+console.log(image);
+
 export class Jones extends Component {
   render() {
     return (
