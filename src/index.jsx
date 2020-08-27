@@ -6,10 +6,10 @@ import './styles/app.scss';
 
 var App = (props) => (
 <div>
-<!--   <RainbowSpinner />   -->
   <Jones />  
 </div>
 )
+// <RainbowSpinner />  
 
 const element = <App />;
 ReactDOM.render(
