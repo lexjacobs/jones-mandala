@@ -6,9 +6,9 @@ var img2 = "jones_3.png?v=1598504339287";
 var img1 = "jones_1.png?v=1598504337111";
 
 export default {
-  1: `${root + img1}`,
-  2: `${root + img2}`,
-  3: `${root + img3}`,
-  4: `${root + img4}`,
-  5: `${root + img5}`
+  i1: `${root + img1}`,
+  i2: `${root + img2}`,
+  i3: `${root + img3}`,
+  i4: `${root + img4}`,
+  i5: `${root + img5}`
 };
