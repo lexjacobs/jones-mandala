@@ -1,34 +1,9 @@
-$s: 10px;
-ul {
-  height: $s;
-  width: $s;
+.mandala {
   position: absolute;
-  left: 50%;
-  top: 50%;
-  background-color: #abc;
+  height: 100%;
+  width: 100%;
 }
 
-$b: 3000px;
-li {
-  padding: 0;
-  height: $b;
-  width: $b;
-  display: block;
-  position: absolute;
-  transform-origin: 0 0;
-}
-
-$rainbow: (
-  1: "indigo",
-  2: "red",
-  3: "orange",
-  4: "yellow",
-  5: "green",
-  6: "blue"
-
-);
-
-@each $num, $color in $rainbow {
   li:nth-child(#{$num}) {
     transform: rotate(#{($num - 1) * 60}deg) skewy(10deg);
     background-color: #{$color};
@@ -46,4 +21,3 @@ $rainbow: (
   .rotating#{$num} {
     animation: rotating#{$num} 15s linear infinite;
   }
-}
