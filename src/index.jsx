@@ -6,7 +6,7 @@ import './styles/app.scss';
 
 var App = (props) => (
 <div>
-  <RainbowSpinner />  
+<!--   <RainbowSpinner />   -->
   <Jones />  
 </div>
 )
