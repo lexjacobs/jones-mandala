@@ -4,20 +4,38 @@
   width: 100%;
 }
 
-  li:nth-child(#{$num}) {
-    transform: rotate(#{($num - 1) * 60}deg) skewy(10deg);
-    background-color: #{$color};
+  img.rotating {
+    transform: rotate(0deg);
   }
 
-  @keyframes rotating#{$num} {
+  @keyframes rotating{
     from {
-      transform: rotate(#{($num - 1) * 60}deg);
+      transform: rotate(0deg);
     }
     to {
-      transform: rotate(#{($num - 1) * 60 + 360}deg);
+      transform: rotate(360deg);
     }
   }
 
-  .rotating#{$num} {
-    animation: rotating#{$num} 15s linear infinite;
+  .rotating {
+    animation: rotating 15s linear infinite;
   }
+
+
+  img.rotating_r {
+    transform: rotate(0deg);
+  }
+
+  @keyframes rotating_r {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+
+  .rotating_r {
+    animation: rotating_r 15s linear infinite;
+  }
+

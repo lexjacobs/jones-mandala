@@ -9,7 +9,7 @@ var App = (props) => (
   <Jones />  
 </div>
 )
-// <RainbowSpinner />  
+<RainbowSpinner />  
 
 const element = <App />;
 ReactDOM.render(
