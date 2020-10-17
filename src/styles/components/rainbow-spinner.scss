@@ -18,18 +18,26 @@ li {
   transform-origin: 0 0;
 }
 
+
 $rainbow: (
-  1: "b72421",
-  2: "de3930",
-  3: "e2941f",
-  4: "d1bf36",
-  5: "8bb023",
-  6: "1d8f27"
+  1: "#b72421",
+  2: "#de3930",
+  3: "#e2941f",
+  4: "#d1bf36",
+  5: "#8bb023",
+  6: "#1d8f27",
+  7: "#46a0b3",
+  8: "#3a68aa",
+  9: "#252a71",
+  10: "#823673",
+  11: "#b846a0",
+  12: "#e66fa1"
+
 );
 
 @each $num, $color in $rainbow {
   li:nth-child(#{$num}) {
-    transform: rotate(#{($num - 1) * 30}deg) skewy(10deg);
+    transform: rotate(#{($num - 1) * 40}deg) skewy(10deg);
     background-color: #{$color};
   }
 
