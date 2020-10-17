@@ -9,6 +9,12 @@ export class RainbowSpinner extends Component {
         <li className="rotating4"></li>
         <li className="rotating5"></li>
         <li className="rotating6"></li>
+        <li className="rotating7"></li>
+        <li className="rotating8"></li>
+        <li className="rotating9"></li>
+        <li className="rotating10"></li> 
+        <li className="rotating11"></li> 
+        <li className="rotating12"></li>
       </ul>
     );
   }

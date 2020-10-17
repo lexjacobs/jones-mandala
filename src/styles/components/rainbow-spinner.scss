@@ -1,4 +1,9 @@
 $s: 10px;
+
+body {
+  overflow: hidden;
+}
+
 ul {
   height: $s;
   width: $s;
@@ -37,7 +42,7 @@ $rainbow: (
 
 @each $num, $color in $rainbow {
   li:nth-child(#{$num}) {
-    transform: rotate(#{($num - 1) * 40}deg) skewy(10deg);
+    transform: rotate(#{($num - 1) * 30}deg) skewy(10deg);
     background-color: #{$color};
   }
 
