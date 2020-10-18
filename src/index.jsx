@@ -15,7 +15,7 @@ var AudioChooser = props => {
 };
 
 var App = props => {
-  const [view, setView] = useState(123);
+  const [view, setView] = useState(null);
 
   if (!view) {
     return (
@@ -28,6 +28,7 @@ var App = props => {
       <div>
         {view === "yes" ? <audio autoplay="true" hidden src="https://cdn.glitch.com/e2af77e5-5038-45be-9cb5-f60e2fa146cb%2Fstrawberry_edit.mp4?v=1602996276868"></audio> : null}
         {/*<Jones />*/}
+        <Jones />
         <RainbowSpinner />
       </div>
     );
