@@ -1,17 +1,17 @@
 $s: 10px;
 
-body {
-  overflow: hidden;
+.rainbow-container {
+  display: grid;
+  height: 100vh;
   background-color: #000;
 }
 
 ul {
   height: $s;
   width: $s;
-  position: absolute;
-  left: 50%;
-  top: 50%;
   background-color: #000;
+  justify-self: center;
+  align-self: center;
 }
 
 $b: 3000px;

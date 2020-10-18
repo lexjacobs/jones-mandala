@@ -15,7 +15,7 @@ var AudioChooser = props => {
 };
 
 var App = props => {
-  const [view, setView] = useState(null);
+  const [view, setView] = useState('null');
 
   if (!view) {
     return (
