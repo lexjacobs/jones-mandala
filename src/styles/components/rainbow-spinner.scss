@@ -1,16 +1,26 @@
 $s: 10px;
 
 body {
-
   background-color: #000;
 }
 
+.rainbow-container {
+  width:90vw;
+  height: 90vh;
+  display: grid;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  overflow: clip;
+}
+
 ul {
+
   height: $s;
   width: $s;
-  position: absolute;
-  left: 50%;
-  top: 50%;
+/*   position: absolute; */
+/*   left: 50%;
+  top: 50%; */
   background-color: #000;
 }
 
