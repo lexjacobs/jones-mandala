@@ -1,16 +1,19 @@
 .jones-container {
-  display: grid;
+  display: flex;
 /*   align-items: center;
   justify-content: center; */
   overflow: hidden;
 }
 
 .mandala {
-  position: absolute;
-  align-self: center;
-  justify-self: center;
-  width: 90vw;
-  height: 90vh;
+/*   display: flex; */
+   justify-content: center;
+  align-items: center;
+/*   position: absolute; */
+/*   align-self: center;
+  justify-self: center; */
+  width: 90vmin;
+  height: 90vmin;
 /*   width: 70%; */
   z-index: 2;
 }
