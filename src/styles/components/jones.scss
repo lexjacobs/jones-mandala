@@ -1,8 +1,18 @@
+.jones-container {
+  width:90vw;
+  height: 90vh;
+  display: grid;
+/*   margin: 0 auto; */
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
 .mandala {
   position: absolute;
 /*   height: 100%; */
-  width: 100%;
-  z-index: 10;
+  width: 80%;
+  z-index: 1;
 }
 
   img.rotating {
