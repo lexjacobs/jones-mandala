@@ -8,25 +8,29 @@ import "./styles/app.scss";
 var AudioChooser = props => {
   return (
     <div>
-      hello
-      <button>Audio</button>
-      <button>No Audio</button>
+      <button onClick={() => props.handleChoice('yes')}>Audio</button>
+      <button onClick={() => props.handleChoice('no')}>No Audio</button>
     </div>
   );
 };
 
-var App = props => {
-  const [view, setView] = useState("choose");
+var AudioTag = props => (
+  <audio controls src=""></audio>
+)
 
-  if (view === "choose") {
+var App = props => {
+  const [view, setView] = useState(null);
+
+  if (!view) {
     return (
       <div>
-        <AudioChooser />
+        <AudioChooser handleChoice={setView} />
       </div>
     );
   } else {
     return (
       <div>
+        {view === "yes" ? <audio controls src=""></audio> : null}
         <Jones />
         <RainbowSpinner />
       </div>
