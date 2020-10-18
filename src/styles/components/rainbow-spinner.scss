@@ -1,18 +1,17 @@
 $s: 10px;
 
-.rainbow-container {
-  display: grid;
-  height: 100vh;
-  width: 100vh;
+body {
+  overflow: hidden;
   background-color: #000;
 }
 
 ul {
-  height: $s;              
+  height: $s;
   width: $s;
+  position: absolute;
+  left: 50%;
+  top: 50%;
   background-color: #000;
-  justify-self: center;
-  align-self: center;
 }
 
 $b: 3000px;
@@ -22,8 +21,7 @@ li {
   width: $b;
   display: block;
   position: absolute;
-  transform-origin: -12px -48px;
-/*    transform-origin: 0 0; */
+  transform-origin: 0 0;
 }
 
 
