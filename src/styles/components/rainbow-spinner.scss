@@ -57,6 +57,6 @@ $rainbow: (
   }
 
   .rotating#{$num} {
-    animation: rotating#{$num} 35s linear infinite;
+    animation: rotating#{$num} 35s ease-in-out infinite;
   }
 }
