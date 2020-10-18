@@ -2,6 +2,7 @@ $s: 10px;
 
 body {
   overflow: hidden;
+  background-color: #000;
 }
 
 ul {
@@ -10,7 +11,7 @@ ul {
   position: absolute;
   left: 50%;
   top: 50%;
-  background-color: #abc;
+  background-color: #000;
 }
 
 $b: 3000px;
@@ -51,11 +52,11 @@ $rainbow: (
       transform: rotate(#{($num - 1) * 30}deg);
     }
     to {
-      transform: rotate(#{($num - 1) * 30 + 360}deg);
+      transform: rotate(#{($num - 1) * -360}deg);
     }
   }
 
   .rotating#{$num} {
-/*     animation: rotating#{$num} 15s linear infinite; */
+    animation: rotating#{$num} 35s linear infinite;
   }
 }
