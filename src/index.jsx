@@ -1,8 +1,9 @@
-import React from "react";
+import React, {useState} from "react";
 import ReactDOM from "react-dom";
 import RainbowSpinner from "./components/RainbowSpinner";
 import Jones from "./components/Jones";
 import "./styles/app.scss";
+
 
 var App = props => (
   <div>
