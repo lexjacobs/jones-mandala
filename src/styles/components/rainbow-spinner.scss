@@ -42,7 +42,7 @@ $rainbow: (
 
 @each $num, $color in $rainbow {
   li:nth-child(#{$num}) {
-    transform: rotate(#{($num - 1) * 30}deg) skewy(10deg);
+    transform: rotate(#{($num - 1) * 30}deg) skewy(60deg);
     background-color: #{$color};
   }
 
@@ -56,6 +56,6 @@ $rainbow: (
   }
 
   .rotating#{$num} {
-    animation: rotating#{$num} 15s linear infinite;
+/*     animation: rotating#{$num} 15s linear infinite; */
   }
 }
