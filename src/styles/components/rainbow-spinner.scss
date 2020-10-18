@@ -8,7 +8,7 @@ $s: 10px;
 }
 
 ul {
-  height: $s;
+  height: $s;              
   width: $s;
   background-color: #000;
   justify-self: center;
@@ -22,7 +22,8 @@ li {
   width: $b;
   display: block;
   position: absolute;
-  transform-origin: 0 0;
+  transform-origin: -12px -48px;
+/*    transform-origin: 0 0; */
 }
 
 
