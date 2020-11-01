@@ -8,14 +8,14 @@ import "./styles/app.scss";
 var AudioChooser = props => {
   return (
     <div>
-      <button onClick={() => props.handleChoice('yes')}>Audio</button>
-      <button onClick={() => props.handleChoice('no')}>No Audio</button>
+      <button onClick={() => props.handleChoice("yes")}>Audio</button>
+      <button onClick={() => props.handleChoice("no")}>No Audio</button>
     </div>
   );
 };
 
 var App = props => {
-  const [view, setView] = useState('null');
+  const [view, setView] = useState("null");
 
   if (!view) {
     return (
@@ -26,10 +26,16 @@ var App = props => {
   } else {
     return (
       <div>
-        {view === "yes" ? <audio loop="true" autoplay="true" hidden src="https://cdn.glitch.com/e2af77e5-5038-45be-9cb5-f60e2fa146cb%2Fstrawberry_edit.mp4?v=1602996276868"></audio> : null}
-        {/*<Jones />*/}
+        {view === "yes" ? (
+          <audio
+            loop="true"
+            autoplay="true"
+            hidden
+            src="https://cdn.glitch.com/e2af77e5-5038-45be-9cb5-f60e2fa146cb%2Fstrawberry_edit.mp4?v=1602996276868"
+          ></audio>
+        ) : null}
+        {/* <RainbowSpinner /> */}
         <Jones />
-        <RainbowSpinner />
       </div>
     );
   }
