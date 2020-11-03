@@ -13,7 +13,7 @@
     "react-dom": "^16.14.0"
   },
   "engines": {
-    "node": "10.x"
+    "node": "9.x"
   },
   "repository": {
     "url": "https://glitch.com/edit/#!/react-webpack-babel-sass"
