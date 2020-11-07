@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/jones-mandala/static/css/main.2128a3d4.chunk.css",
+    "main.js": "/jones-mandala/static/js/main.3f1ed0bb.chunk.js",
+    "main.js.map": "/jones-mandala/static/js/main.3f1ed0bb.chunk.js.map",
+    "runtime-main.js": "/jones-mandala/static/js/runtime-main.ed8a2201.js",
+    "runtime-main.js.map": "/jones-mandala/static/js/runtime-main.ed8a2201.js.map",
+    "static/js/2.b65ab243.chunk.js": "/jones-mandala/static/js/2.b65ab243.chunk.js",
+    "static/js/2.b65ab243.chunk.js.map": "/jones-mandala/static/js/2.b65ab243.chunk.js.map",
+    "index.html": "/jones-mandala/index.html",
+    "static/css/main.2128a3d4.chunk.css.map": "/jones-mandala/static/css/main.2128a3d4.chunk.css.map",
+    "static/js/2.b65ab243.chunk.js.LICENSE.txt": "/jones-mandala/static/js/2.b65ab243.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed8a2201.js",
+    "static/js/2.b65ab243.chunk.js",
+    "static/css/main.2128a3d4.chunk.css",
+    "static/js/main.3f1ed0bb.chunk.js"
+  ]
+}
