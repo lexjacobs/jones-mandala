@@ -11,8 +11,15 @@
   align-content: center;
 }
 
-.chooser {
-  z-index: 10;
+.chooser > button {
+  width: 40vw;
+  height: 50vh;
+  margin-top: 10vh;
+  margin-left: 5vw;
+  display: inline-block;
+  background-color: darkgreen;
+  color:white;
+  font-size: 30px;
 }
 
 .outer {
