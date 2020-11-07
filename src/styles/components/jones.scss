@@ -32,6 +32,22 @@ html {
     animation: rotating 15s linear infinite;
   }
 
+  img.rotating2 {
+    transform: rotate(0deg);
+  }
+
+  @keyframes rotating2{
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .rotating2 {
+    animation: rotating 25s linear infinite;
+  }
 
   img.rotating_r {
     transform: rotate(0deg);
@@ -47,6 +63,22 @@ html {
   }
 
   .rotating_r {
-    animation: rotating_r 15s linear infinite;
+    animation: rotating_r 25s linear infinite;
   }
 
+  img.rotating_r2 {
+    transform: rotate(30deg);
+  }
+
+  @keyframes rotating_r2 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+
+  .rotating_r2 {
+    animation: rotating_r 15s linear infinite;
+  }
