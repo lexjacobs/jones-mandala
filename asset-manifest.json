@@ -1,20 +1,26 @@
 {
   "files": {
     "main.css": "/jones-mandala/static/css/main.c9f2c5fe.chunk.css",
-    "main.js": "/jones-mandala/static/js/main.3f1ed0bb.chunk.js",
-    "main.js.map": "/jones-mandala/static/js/main.3f1ed0bb.chunk.js.map",
+    "main.js": "/jones-mandala/static/js/main.de4aefb5.chunk.js",
+    "main.js.map": "/jones-mandala/static/js/main.de4aefb5.chunk.js.map",
     "runtime-main.js": "/jones-mandala/static/js/runtime-main.ed8a2201.js",
     "runtime-main.js.map": "/jones-mandala/static/js/runtime-main.ed8a2201.js.map",
     "static/js/2.b65ab243.chunk.js": "/jones-mandala/static/js/2.b65ab243.chunk.js",
     "static/js/2.b65ab243.chunk.js.map": "/jones-mandala/static/js/2.b65ab243.chunk.js.map",
     "index.html": "/jones-mandala/index.html",
     "static/css/main.c9f2c5fe.chunk.css.map": "/jones-mandala/static/css/main.c9f2c5fe.chunk.css.map",
-    "static/js/2.b65ab243.chunk.js.LICENSE.txt": "/jones-mandala/static/js/2.b65ab243.chunk.js.LICENSE.txt"
+    "static/js/2.b65ab243.chunk.js.LICENSE.txt": "/jones-mandala/static/js/2.b65ab243.chunk.js.LICENSE.txt",
+    "static/media/a_raven.png": "/jones-mandala/static/media/a_raven.7b41a6c1.png",
+    "static/media/b_ring.png": "/jones-mandala/static/media/b_ring.fa64b85b.png",
+    "static/media/c_ring.png": "/jones-mandala/static/media/c_ring.b4cc0282.png",
+    "static/media/d_ring.png": "/jones-mandala/static/media/d_ring.bd68f631.png",
+    "static/media/e_jones_pic.png": "/jones-mandala/static/media/e_jones_pic.66dead57.png",
+    "static/media/strawberry_edit.mp4": "/jones-mandala/static/media/strawberry_edit.1af8762e.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.ed8a2201.js",
     "static/js/2.b65ab243.chunk.js",
     "static/css/main.c9f2c5fe.chunk.css",
-    "static/js/main.3f1ed0bb.chunk.js"
+    "static/js/main.de4aefb5.chunk.js"
   ]
 }
