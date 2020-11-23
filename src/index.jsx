@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 import RainbowSpinner from "./components/RainbowSpinner";
 import Jones from "./components/Jones";
 import "./styles/app.scss";
+var song = require("./components/assets/strawberry_edit.mp4");
 
 var AudioChooser = props => {
   return (
@@ -26,7 +27,7 @@ var App = props => {
   } else {
     return (
       <div>
-        {view === "yes" ? <audio loop="true" autoplay="true" hidden src="https://cdn.glitch.com/e2af77e5-5038-45be-9cb5-f60e2fa146cb%2Fstrawberry_edit.mp4?v=1602996276868"></audio> : null}
+        {view === "yes" ? <audio loop={true} autoPlay={true} hidden src={song.default}></audio> : null}
         <div className="outer">
           <Jones />
           <RainbowSpinner />
